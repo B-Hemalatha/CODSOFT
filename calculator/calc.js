@@ -2,7 +2,7 @@ function solve(val){
     var a=document.getElementById('ans');
     a.value+=val;
 }
-function  ans(){
+function  result(){
     var n=document.getElementById('ans').value;
     var nn=eval(n);
     document.getElementById('ans').value=nn;
